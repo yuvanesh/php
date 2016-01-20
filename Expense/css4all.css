@@ -1,0 +1,90 @@
+body {
+    background-color: #d0e4fe;
+}
+
+#errormessage {
+	color: red;
+    font-weight: bold;
+}
+
+.fields {
+	font-weight: bold;
+	color:#000000;
+	font-size:1.1em;
+    padding:5px 15px;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.data {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.hrefs {
+	text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+table.data tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=submit],input[type=button] {
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	padding:5px 25px; /*add some padding to the inside of the button*/
+	border:1px solid #33842a; /*required or the default border for the browser will appear*/
+	/*give the button curved corners, alter the size as required*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*give the button a drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	/*style the text*/
+	color:#000000;
+	font-size:1.1em;
+    padding:5px 15px; 
+    background:#99b3ff; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input,select,textarea {
+  size: 500%;
+  padding: 9px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type=text],select,textarea,input[type=date] {
+	width: 300;
+}
+
+h3 {
+	color:#040000;
+	font-size:3.1em;
+    padding:5px 15px;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+
+
+
